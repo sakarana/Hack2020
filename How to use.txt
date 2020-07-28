@@ -1,0 +1,24 @@
+How to use:
+
+Required software:
+
+Python
+Python IDE: I used Pycharm you can use Visual Studio or others
+
+Required Libraries:
+cv2
+datetime
+imutils
+numpy as np
+math
+
+To run the code open Social Distancing Project in A Notepad (don't directly open in IDE it throws indentation errors)
+
+Copy the code to the IDE
+Make sure you have centroid tracker code; MobileNetSSD_deploy.caffemodel; MobileNetSSD_deploy.prototxt and the testvideo2 in the same folder
+Run the code 
+
+If you want to change the social distance parameters you can change the "if distance <50.0:" value
+
+Code explannation:
+The centroid tracker code will identify the centroid of the object / human
